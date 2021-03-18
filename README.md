@@ -53,7 +53,7 @@ If you built the exporter using the method mentioned in the previous section, th
 
 #### Example
 ```
-mongodb_exporter_linux_amd64/mongodb_exporter --mongodbdsn=mongodb://127.0.0.1:17001
+mongodb_exporter_darwin_amd64/mongodb_exporter --mongodb.uri=mongodb://exporter:password@127.0.0.1:27017/admin
 ```
 #### Enabling collstats metrics gathering
 `--mongodb.collstats-colls` receives a list of databases and collections to monitor using collstats.
